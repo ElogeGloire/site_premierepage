@@ -48,7 +48,7 @@ div.relative {position: relative}
 
 #relative {position: absolute; bottom:0; 
 text-align: center; width: 100%; top: 200;
-background-color: rgb(205, 225, 232);}
+background-color: rgb(205, 225, 232); overflow: auto;}
 
 div.colonne, div.colonne2 {width: 45%; 
 margin-top: 20px;}
@@ -75,3 +75,5 @@ font-size: 14px; font-weight: bold; padding-top: 10px;
 border-radius: 50%;}
 
 p.number {margin-bottom: 0; margin-top: 0;}
+
+div.contenu {overflow: auto;}
